@@ -1,3 +1,10 @@
+function notify (title, text, duration)
+	game:GetService('StarterGui'):SetCore('SendNotification', {
+		Title = title, --where do i put text
+		Text = text,
+		Duration = duration
+	})
+end 
 local DaHood = Instance.new("ScreenGui")
 local ScriptChecker = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -44,31 +51,8 @@ local UICorner_19 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 
 --Properties:
+notiy('Script', 'Loading', 3)
 
-local ohString1 = "Royal Is Executed Please Wait 5 Secconds"
-local ohString2 = "All"
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
-wait(1)
-local ohString1 = "Loading"
-local ohString2 = "All"
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
-wait(1)
-local ohString1 = "."
-local ohString2 = "All"
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
-wait(1)
-local ohString1 = "."
-local ohString2 = "All"
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
-wait(1)
-local ohString1 = "."
-local ohString2 = "All"
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
 
 DaHood.Name = "Da Hood"
 DaHood.Parent = game.CoreGui
@@ -315,10 +299,7 @@ Lock.Text = "Lock"
 Lock.TextColor3 = Color3.fromRGB(255, 255, 255)
 Lock.TextSize = 22.000
 Lock.MouseButton1Down:Connect(function()
-	local ohString1 = "Royal's Lock executed"
-	local ohString2 = "All"
-
-	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+	noitfy('Script', 'Executed', 2)
 	getgenv().Prediction = 0.1248710929171	
 	getgenv().AimPart = "HumanoidRootPart"	
 	getgenv().Key = "Q"	
@@ -363,10 +344,7 @@ Lock.MouseButton1Down:Connect(function()
 	--// Check if aimlock is loaded	
 
 	if getgenv().Loaded == true then	
-		local ohString1 = "Lock Is Already Loaded"
-		local ohString2 = "All"
-
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)	
+		notify('Its On', 'Nigga', 1)
 		return	
 	end	
 
@@ -442,10 +420,7 @@ Lock.MouseButton1Down:Connect(function()
 				if Locked then	
 					Victim = getClosest()	
 
-					local ohString1 = "Locked onto"..tostring(Victim.Character.Humanoid.DisplayName)
-					local ohString2 = "All"
-
-					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)	
+					notify('Script', 'Locked On..tostring(Victim.Character.Humanoid.DisplayName)', 1
 				else	
 					if Victim ~= nil then	
 						Victim = nil	
@@ -454,10 +429,7 @@ Lock.MouseButton1Down:Connect(function()
 					end	
 				end	
 			else	
-				local ohString1 = "Aimlock is not enabled!"
-				local ohString2 = "All"
-
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+				notify('its off', 'Nigga', 1)
 			end	
 		end	
 		if k == SelectedDisableKey then	
