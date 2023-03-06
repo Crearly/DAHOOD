@@ -333,13 +333,7 @@ Lock.MouseButton1Down:Connect(function()
 
 	--// Notification function	
 
-	function Notify(tx)	
-		SG:SetCore("SendNotification", {	
-			Title = "Tell Ur Friends About This Script",	
-			Text = tx,	
-			Duration = 5	
-		})	
-	end	
+	
 
 	--// Check if aimlock is loaded	
 
