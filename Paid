@@ -325,8 +325,8 @@ Lock.MouseButton1Down:Connect(function()
 	getgenv().DisableKey = "P"	
 
 	getgenv().FOV = true	
-	getgenv().ShowFOV = false	
-	getgenv().FOVSize = 55	
+	getgenv().ShowFOV = true	
+	getgenv().FOVSize = 25	
 
 	--// Variables (Service)	
 
