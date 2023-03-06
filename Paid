@@ -1,0 +1,772 @@
+local DaHood = Instance.new("ScreenGui")
+local ScriptChecker = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Exit = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Minimize = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Info = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Selectedlanguage = Instance.new("ImageLabel")
+local Tabs = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Selectedaccount_circle = Instance.new("ImageLabel")
+local Prev = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Selectedarrow_back = Instance.new("ImageLabel")
+local NextTab = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Selectedarrow_forward = Instance.new("ImageLabel")
+local MainTab = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local fly = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Reach = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Lock = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local support = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Redeem = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local AutoFarm = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local LogsTab = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+local ohString1 = "Royal Is Executed Please Wait 5 Secconds"
+local ohString2 = "All"
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+wait(1)
+local ohString1 = "Loading"
+local ohString2 = "All"
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+wait(1)
+local ohString1 = "."
+local ohString2 = "All"
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+wait(1)
+local ohString1 = "."
+local ohString2 = "All"
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+wait(1)
+local ohString1 = "."
+local ohString2 = "All"
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+
+DaHood.Name = "Da Hood"
+DaHood.Parent = game.CoreGui
+
+ScriptChecker.Name = "ScriptChecker"
+ScriptChecker.Parent = DaHood
+ScriptChecker.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ScriptChecker.Position = UDim2.new(0.341588855, 0, 0.236503601, 0)
+ScriptChecker.Size = UDim2.new(0, 363, 0, 460)
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = ScriptChecker
+
+Exit.Name = "Exit"
+Exit.Parent = ScriptChecker
+Exit.BackgroundColor3 = Color3.fromRGB(255, 75, 75)
+Exit.Position = UDim2.new(0.943750024, 0, 0.0130434781, 0)
+Exit.Size = UDim2.new(0, 11, 0, 11)
+Exit.Font = Enum.Font.SourceSans
+Exit.Text = ""
+Exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exit.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(1, 0)
+UICorner_2.Parent = Exit
+
+Minimize.Name = "Minimize"
+Minimize.Parent = ScriptChecker
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 243, 70)
+Minimize.Position = UDim2.new(0.890625, 0, 0.0130434781, 0)
+Minimize.Size = UDim2.new(0, 11, 0, 11)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = ""
+Minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(1, 0)
+UICorner_3.Parent = Minimize
+
+Info.Name = "Info"
+Info.Parent = ScriptChecker
+Info.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Info.Position = UDim2.new(0, 7, 0, 26)
+Info.Size = UDim2.new(0, 349, 0, 425)
+
+UICorner_4.CornerRadius = UDim.new(0, 15)
+UICorner_4.Parent = Info
+
+TextLabel.Parent = Info
+TextLabel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel.Position = UDim2.new(0.0802292228, 0, 0.569309533, 0)
+TextLabel.Size = UDim2.new(0, 287, 0, 26)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Login Name"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 28.000
+
+UICorner_5.CornerRadius = UDim.new(0, 20)
+UICorner_5.Parent = TextLabel
+
+ImageLabel.Parent = Info
+ImageLabel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ImageLabel.Position = UDim2.new(0, 116, 0, 107)
+ImageLabel.Size = UDim2.new(0, 116, 0, 116)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_6.CornerRadius = UDim.new(1, 0)
+UICorner_6.Parent = ImageLabel
+
+TextButton.Parent = Info
+TextButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextButton.Position = UDim2.new(0, 308, 0, 388)
+TextButton.Size = UDim2.new(0, 41, 0, 41)
+TextButton.Visible = false
+TextButton.AutoButtonColor = false
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(0, 25)
+UICorner_7.Parent = TextButton
+
+Selectedlanguage.Name = "Selected: language"
+Selectedlanguage.Parent = TextButton
+Selectedlanguage.BackgroundTransparency = 1.000
+Selectedlanguage.Size = UDim2.new(0, 41, 0, 41)
+Selectedlanguage.Image = "rbxassetid://2790563658"
+
+Tabs.Name = "Tabs"
+Tabs.Parent = ScriptChecker
+Tabs.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Tabs.Position = UDim2.new(0, 7, 0, 26)
+Tabs.Size = UDim2.new(0, 349, 0, 39)
+
+UICorner_8.CornerRadius = UDim.new(0, 15)
+UICorner_8.Parent = Tabs
+
+TextButton_2.Parent = Tabs
+TextButton_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_2.Position = UDim2.new(0, 151, 0, 2)
+TextButton_2.Size = UDim2.new(0, 46, 0, 34)
+TextButton_2.AutoButtonColor = false
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_9.CornerRadius = UDim.new(0, 25)
+UICorner_9.Parent = TextButton_2
+
+Selectedaccount_circle.Name = "Selected: account_circle"
+Selectedaccount_circle.Parent = TextButton_2
+Selectedaccount_circle.BackgroundTransparency = 1.000
+Selectedaccount_circle.Position = UDim2.new(0, 6, 0, 1)
+Selectedaccount_circle.Size = UDim2.new(0, 35, 0, 35)
+Selectedaccount_circle.Image = "rbxassetid://2790547157"
+
+Prev.Name = "Prev"
+Prev.Parent = Tabs
+Prev.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Prev.Position = UDim2.new(0, 0, 0, 2)
+Prev.Size = UDim2.new(0, 33, 0, 33)
+Prev.AutoButtonColor = false
+Prev.Font = Enum.Font.SourceSans
+Prev.Text = ""
+Prev.TextColor3 = Color3.fromRGB(0, 0, 0)
+Prev.TextSize = 14.000
+
+UICorner_10.CornerRadius = UDim.new(0, 25)
+UICorner_10.Parent = Prev
+
+Selectedarrow_back.Name = "Selected: arrow_back"
+Selectedarrow_back.Parent = Prev
+Selectedarrow_back.BackgroundTransparency = 1.000
+Selectedarrow_back.Size = UDim2.new(0, 33, 0, 33)
+Selectedarrow_back.Image = "rbxassetid://2777859585"
+
+NextTab.Name = "Next Tab"
+NextTab.Parent = Tabs
+NextTab.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+NextTab.Position = UDim2.new(0, 316, 0, 3)
+NextTab.Size = UDim2.new(0, 33, 0, 33)
+NextTab.AutoButtonColor = false
+NextTab.Font = Enum.Font.SourceSans
+NextTab.Text = ""
+NextTab.TextColor3 = Color3.fromRGB(0, 0, 0)
+NextTab.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(0, 25)
+UICorner_11.Parent = NextTab
+
+Selectedarrow_forward.Name = "Selected: arrow_forward"
+Selectedarrow_forward.Parent = NextTab
+Selectedarrow_forward.BackgroundTransparency = 1.000
+Selectedarrow_forward.Position = UDim2.new(0.00665187836, 0, -0.0303030312, 0)
+Selectedarrow_forward.Size = UDim2.new(0, 33, 0, 33)
+Selectedarrow_forward.Image = "rbxassetid://2777865011"
+
+MainTab.Name = "MainTab"
+MainTab.Parent = ScriptChecker
+MainTab.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+MainTab.Position = UDim2.new(0.0192837473, 0, 0.132608697, 0)
+MainTab.Size = UDim2.new(0, 349, 0, 390)
+
+UICorner_12.CornerRadius = UDim.new(0, 15)
+UICorner_12.Parent = MainTab
+
+fly.Name = "fly"
+fly.Parent = MainTab
+fly.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+fly.Position = UDim2.new(0.0257879645, 0, 0.0897435844, 0)
+fly.Size = UDim2.new(0, 104, 0, 35)
+fly.Font = Enum.Font.SourceSans
+fly.Text = "Fly"
+fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+fly.TextSize = 22.000
+fly.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/b7aSN4Sf"))()
+end)
+
+UICorner_13.CornerRadius = UDim.new(1, 0)
+UICorner_13.Parent = fly
+
+Reach.Name = "Reach"
+Reach.Parent = MainTab
+Reach.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Reach.Position = UDim2.new(0.693409741, 0, 0.0897435844, 0)
+Reach.Size = UDim2.new(0, 104, 0, 35)
+Reach.Font = Enum.Font.SourceSans
+Reach.Text = "Reach"
+Reach.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reach.TextSize = 22.000
+Reach.MouseButton1Down:Connect(function()
+	wait(0) local A_1 = "Royal's Reach Is On" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+	LP = game.Players.LocalPlayer
+	for i,v in ipairs(LP.Character:GetDescendants()) do
+		if v:IsA("MeshPart") then v.Massless = true
+			v.CanCollide = false
+			v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0)
+
+		end
+	end
+
+	for i,v in ipairs(game.workspace:GetDescendants()) do
+		if v:IsA("Seat") then 
+			v.Disabled = true
+		end
+	end
+	x = 35
+	y = 35
+	z = 35
+
+
+	penis = Vector3.new(x,y,z)
+
+	LP.Character.RightHand.Size = penis
+
+	LP.Character.RightHand.Transparency = 1
+	local selectionBox = Instance.new("SelectionBox",LP.Character.RightHand)
+	selectionBox.Adornee = LP.Character.RightHand
+	selectionBox.Color3 = Color3.new(1,0,0)
+
+	LP.Character.LeftHand.Size = penis
+	LP.Character.BodyEffects.SpecialParts.LeftHand.Size = penis
+
+	LP.Character.LeftHand.Transparency = 1
+	local selectionBox = Instance.new("SelectionBox",LP.Character.LeftHand)
+	selectionBox.Adornee = LP.Character.LeftHand
+	selectionBox.Color3 = Color3.new(1,0,0)		
+end)
+
+
+UICorner_14.CornerRadius = UDim.new(1, 0)
+UICorner_14.Parent = Reach
+
+Lock.Name = "Lock"
+Lock.Parent = MainTab
+Lock.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Lock.Position = UDim2.new(0.349570185, 0, 0.0897435844, 0)
+Lock.Size = UDim2.new(0, 104, 0, 35)
+Lock.Font = Enum.Font.SourceSans
+Lock.Text = "Lock"
+Lock.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lock.TextSize = 22.000
+Lock.MouseButton1Down:Connect(function()
+	local ohString1 = "Royal's Lock executed"
+	local ohString2 = "All"
+
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+	getgenv().Prediction = 0.1248710929171	
+	getgenv().AimPart = "HumanoidRootPart"	
+	getgenv().Key = "Q"	
+	getgenv().DisableKey = "P"	
+
+	getgenv().FOV = true	
+	getgenv().ShowFOV = false	
+	getgenv().FOVSize = 55	
+
+	--// Variables (Service)	
+
+	local Players = game:GetService("Players")	
+	local RS = game:GetService("RunService")	
+	local WS = game:GetService("Workspace")	
+	local GS = game:GetService("GuiService")	
+	local SG = game:GetService("StarterGui")	
+
+	--// Variables (regular)	
+
+	local LP = Players.LocalPlayer	
+	local Mouse = LP:GetMouse()	
+	local Camera = WS.CurrentCamera	
+	local GetGuiInset = GS.GetGuiInset	
+
+	local AimlockState = true	
+	local Locked	
+	local Victim	
+
+	local SelectedKey = getgenv().Key	
+	local SelectedDisableKey = getgenv().DisableKey	
+
+	--// Notification function	
+
+	function Notify(tx)	
+		SG:SetCore("SendNotification", {	
+			Title = "Tell Ur Friends About This Script",	
+			Text = tx,	
+			Duration = 5	
+		})	
+	end	
+
+	--// Check if aimlock is loaded	
+
+	if getgenv().Loaded == true then	
+		local ohString1 = "Lock Is Already Loaded"
+		local ohString2 = "All"
+
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)	
+		return	
+	end	
+
+	getgenv().Loaded = true	
+
+	--// FOV Circle	
+
+	local fov = Drawing.new("Circle")	
+	fov.Filled = false	
+	fov.Transparency = 1	
+	fov.Thickness = 1	
+	fov.Color = Color3.fromRGB(255, 255, 0)	
+	fov.NumSides = 1000	
+
+	--// Functions	
+
+	function update()	
+		if getgenv().FOV == true then	
+			if fov then	
+				fov.Radius = getgenv().FOVSize * 2	
+				fov.Visible = getgenv().ShowFOV	
+				fov.Position = Vector2.new(Mouse.X, Mouse.Y + GetGuiInset(GS).Y)	
+
+				return fov	
+			end	
+		end	
+	end	
+
+	function WTVP(arg)	
+		return Camera:WorldToViewportPoint(arg)	
+	end	
+
+	function WTSP(arg)	
+		return Camera.WorldToScreenPoint(Camera, arg)	
+	end	
+
+	function getClosest()	
+		local closestPlayer	
+		local shortestDistance = math.huge	
+
+		for i, v in pairs(game.Players:GetPlayers()) do	
+			local notKO = v.Character:WaitForChild("BodyEffects")["K.O"].Value ~= true	
+			local notGrabbed = v.Character:FindFirstChild("GRABBING_COINSTRAINT") == nil	
+
+			if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild(getgenv().AimPart) and notKO and notGrabbed then	
+				local pos = Camera:WorldToViewportPoint(v.Character.PrimaryPart.Position)	
+				local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).magnitude	
+
+				if (getgenv().FOV) then	
+					if (fov.Radius > magnitude and magnitude < shortestDistance) then	
+						closestPlayer = v	
+						shortestDistance = magnitude	
+					end	
+				else	
+					if (magnitude < shortestDistance) then	
+						closestPlayer = v	
+						shortestDistance = magnitude	
+					end	
+				end	
+			end	
+		end	
+		return closestPlayer	
+	end	
+
+	--// Checks if key is down	
+
+	Mouse.KeyDown:Connect(function(k)	
+		SelectedKey = SelectedKey:lower()	
+		SelectedDisableKey = SelectedDisableKey:lower()	
+		if k == SelectedKey then	
+			if AimlockState == true then	
+				Locked = not Locked	
+				if Locked then	
+					Victim = getClosest()	
+
+					local ohString1 = "Locked onto"..tostring(Victim.Character.Humanoid.DisplayName)
+					local ohString2 = "All"
+
+					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)	
+				else	
+					if Victim ~= nil then	
+						Victim = nil	
+
+						Notify("Unlocked!")	
+					end	
+				end	
+			else	
+				local ohString1 = "Aimlock is not enabled!"
+				local ohString2 = "All"
+
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+			end	
+		end	
+		if k == SelectedDisableKey then	
+			AimlockState = not AimlockState	
+		end	
+	end)	
+
+	--// Loop update FOV and loop camera lock onto target	
+
+	RS.RenderStepped:Connect(function()	
+		update()	
+		if AimlockState == true then	
+			if Victim ~= nil then	
+				Camera.CFrame = CFrame.new(Camera.CFrame.p, Victim.Character[getgenv().AimPart].Position + Victim.Character[getgenv().AimPart].Velocity*getgenv().Prediction)	
+			end	
+		end	
+	end)	
+	while wait() do
+		if getgenv().AutoPrediction == true then	
+			local pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()	
+			local split = string.split(pingvalue,'(')	
+			local ping = tonumber(split[1])	
+			if ping < 225 then	
+				getgenv().Prediction = 1.4	
+			elseif ping < 215 then	
+				getgenv().Prediction = 1.2	
+			elseif ping < 205 then
+				getgenv().Prediction = 1.0	
+			elseif ping < 190 then
+				getgenv().Prediction = 0.10	
+			elseif ping < 180 then	
+				getgenv().Prediction = 0.12	
+			elseif ping < 170 then
+				getgenv().Prediction = 0.15	
+			elseif ping < 160 then
+				getgenv().Prediction = 0.18	
+			elseif ping < 150 then
+				getgenv().Prediction = 0.110	
+			elseif ping < 140 then	
+				getgenv().Prediction = 0.113	
+			elseif ping < 130 then	
+				getgenv().Prediction = 0.116	
+			elseif ping < 120 then	
+				getgenv().Prediction = 0.120	
+			elseif ping < 110 then	
+				getgenv().Prediction = 0.124	
+			elseif ping < 105 then	
+				getgenv().Prediction = 0.127	
+			elseif ping < 90 then	
+				getgenv().Prediction = 0.130	
+			elseif ping < 80 then	
+				getgenv().Prediction = 0.133	
+			elseif ping < 70 then	
+				getgenv().Prediction = 0.136	
+			elseif ping < 60 then	
+				getgenv().Prediction = 0.140	
+			elseif ping < 50 then	
+				getgenv().Prediction = 0.143	
+			elseif ping < 40 then	
+				getgenv().Prediction = 0.145	
+			elseif ping < 30 then	
+				getgenv().Prediction = 0.155	
+			elseif ping < 20 then	
+				getgenv().Prediction = 0.157	
+			end	
+		end	
+	end
+end)
+
+
+UICorner_15.CornerRadius = UDim.new(1, 0)
+UICorner_15.Parent = Lock
+
+support.Name = "support"
+support.Parent = MainTab
+support.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+support.Position = UDim2.new(0.693409741, 0, 0.246153846, 0)
+support.Size = UDim2.new(0, 104, 0, 35)
+support.Font = Enum.Font.SourceSans
+support.Text = "Support"
+support.TextColor3 = Color3.fromRGB(255, 255, 255)
+support.TextSize = 22.000
+support.MouseButton1Down:Connect(function()
+	task.spawn(function()
+		game:GetService('RunService').RenderStepped:Connect(function()
+			game:GetService('RunService').Heartbeat:Wait()
+			local ohString1 = "Royal Is The Best Script In The World Wide!"
+			local ohString2 = "All"
+
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+		end)
+	end)
+end)
+
+
+UICorner_16.CornerRadius = UDim.new(1, 0)
+UICorner_16.Parent = support
+
+Redeem.Name = "Redeem"
+Redeem.Parent = MainTab
+Redeem.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Redeem.Position = UDim2.new(0.349570185, 0, 0.246153846, 0)
+Redeem.Size = UDim2.new(0, 104, 0, 35)
+Redeem.Font = Enum.Font.SourceSans
+Redeem.Text = "Redeem Codes"
+Redeem.TextColor3 = Color3.fromRGB(255, 255, 255)
+Redeem.TextSize = 19.000
+Redeem.MouseButton1Down:Connect(function()
+	local ohString1 = "EnterPromoCode"
+	local ohString2 = "militarybase"
+
+	game:GetService("ReplicatedStorage").MainEvent:FireServer(ohString1, ohString2)
+	wait(1)
+	local ohString1 = "EnterPromoCode"
+	local ohString2 = "1MLIKES"
+
+	game:GetService("ReplicatedStorage").MainEvent:FireServer(ohString1, ohString2)
+	
+	wait(1)
+	local ohString1 = "EnterPromoCode"
+	local ohString2 = "LunarNewYear"
+
+	game:GetService("ReplicatedStorage").MainEvent:FireServer(ohString1, ohString2)
+	wait(1)
+	local ohString1 = "EnterPromoCode"
+	local ohString2 = "MLK"
+
+	game:GetService("ReplicatedStorage").MainEvent:FireServer(ohString1, ohString2)
+	
+	wait(1)
+	local ohString1 = "EnterPromoCode"
+	local ohString2 = "HAPPYHALLOWEEN"
+
+	game:GetService("ReplicatedStorage").MainEvent:FireServer(ohString1, ohString2)
+	
+	wait(1)
+	local ohString1 = "EnterPromoCode"
+	local ohString2 = "HappyNewYear2023"
+
+	game:GetService("ReplicatedStorage").MainEvent:FireServer(ohString1, ohString2)
+	
+	wait(1)
+	local ohString1 = "EnterPromoCode"
+	local ohString2 = "" --Enter Code Add New Code Thing Every Code Update
+
+	game:GetService("ReplicatedStorage").MainEvent:FireServer(ohString1, ohString2)
+
+	warn("If Codes Did Not Work That Means They Are Old Or You Already Redeemed Them. Also IT Eneters The Old Codes And New Code Just To Make Sure")
+
+end)
+
+
+UICorner_17.CornerRadius = UDim.new(1, 0)
+UICorner_17.Parent = Redeem
+
+AutoFarm.Name = "Auto Farm"
+AutoFarm.Parent = MainTab
+AutoFarm.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+AutoFarm.Position = UDim2.new(0.0257879645, 0, 0.246153846, 0)
+AutoFarm.Size = UDim2.new(0, 104, 0, 35)
+AutoFarm.Font = Enum.Font.SourceSans
+AutoFarm.Text = "Auto Farm(Coming Soon)"
+AutoFarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoFarm.TextSize = 11.000
+AutoFarm.MouseButton1Down:Connect(function()
+print "Coming Soon"
+end)
+
+
+UICorner_18.CornerRadius = UDim.new(1, 0)
+UICorner_18.Parent = AutoFarm
+
+LogsTab.Name = "LogsTab"
+LogsTab.Parent = ScriptChecker
+LogsTab.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+LogsTab.Position = UDim2.new(0.0192837473, 0, 0.132608697, 0)
+LogsTab.Size = UDim2.new(0, 349, 0, 390)
+LogsTab.Visible = false
+
+UICorner_19.CornerRadius = UDim.new(0, 15)
+UICorner_19.Parent = LogsTab
+
+TextLabel_2.Parent = LogsTab
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.212034389, 0, 0.0769230798, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "[+] New Ui"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 51.000
+TextLabel_2.TextWrapped = true
+
+-- Scripts:
+
+local function AXPKFU_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ScriptChecker.Visible = false
+	end)
+end
+coroutine.wrap(AXPKFU_fake_script)()
+local function AQSLCN_fake_script() -- ScriptChecker.LocalScript 
+	local script = Instance.new('LocalScript', ScriptChecker)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(AQSLCN_fake_script)()
+local function RVYY_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	local player = game.Players.LocalPlayer
+	
+	if player then
+		script.Parent.Text = "Welcome, "..game.Players.LocalPlayer.Name
+	end
+end
+coroutine.wrap(RVYY_fake_script)()
+local function GDILW_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	--variables-
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local imagelabel = script.Parent
+	
+	--code-
+	imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
+	
+	
+end
+coroutine.wrap(GDILW_fake_script)()
+local function JOQYCUH_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	while getgenv().autofarm == true do
+		local ScriptChecker
+	
+		script.Parent.Active = true
+		script.Parent.Draggable = false
+	
+		getgenv().autofarm = false -- change this to true to start the loop
+	
+		task.wait()
+	end
+end
+coroutine.wrap(JOQYCUH_fake_script)()
+local function AYZZ_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.MainTab.Visible = false
+		script.Parent.Parent.Parent.Info.Visible = true
+	end)
+	
+end
+coroutine.wrap(AYZZ_fake_script)()
+local function WSCXJI_fake_script() -- Prev.LocalScript 
+	local script = Instance.new('LocalScript', Prev)
+
+	
+		script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.MainTab.Visible = false
+		script.Parent.Parent.Parent.LogsTab.Visible = true
+		script.Parent.Parent.Parent.Info.Visible = true
+		
+		end)
+	
+end
+coroutine.wrap(WSCXJI_fake_script)()
+local function EFPQJHL_fake_script() -- NextTab.LocalScript 
+	local script = Instance.new('LocalScript', NextTab)
+
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.MainTab.Visible = true
+		script.Parent.Parent.Parent.Info.Visible = true
+		script.Parent.Parent.Parent.LogsTab.Visible = false
+	end)
+	
+end
+coroutine.wrap(EFPQJHL_fake_script)()
+local function ERLS_fake_script() -- DaHood.LocalScript 
+	local script = Instance.new('LocalScript', DaHood)
+
+	local ScriptChecker = script.Parent.ScriptChecker
+	local Open = false
+	
+	local PositionClosed = UDim2.new(-0.222, 0,0.206, 0)
+	local PositionOpen = UDim2.new(0.341, 0,0.213, 0)
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:Connect(function(KeyCode)
+		if KeyCode.KeyCode == Enum.KeyCode.LeftAlt then
+			if Open then
+				ScriptChecker:TweenPosition((PositionClosed), "Out", "Quart")
+				Open = false
+			else
+				Open = true
+				ScriptChecker:TweenPosition((PositionOpen), "Out", "Quint")
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(ERLS_fake_script)()
